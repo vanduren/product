@@ -7,9 +7,9 @@ use App\Models\Product;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('contact', function(){
     return view('pages.contact');
